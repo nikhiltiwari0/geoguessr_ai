@@ -1,0 +1,1134 @@
+[
+  {
+    "type": "image",
+    "original_url": "https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/dba4ed98-d3d0-4802-b70e-c35090b936db/p.png?format=1500w",
+    "alt": "Plonk It",
+    "title": "",
+    "caption": "Jump to section",
+    "local_path": "geoguessr_data/images/60568579cd0b745b9aa0dc06165e99bf.png"
+  },
+  {
+    "type": "image",
+    "original_url": "https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/dba4ed98-d3d0-4802-b70e-c35090b936db/p.png?format=1500w",
+    "alt": "Plonk It",
+    "title": "",
+    "caption": "Jump to section",
+    "local_path": "geoguessr_data/images/60568579cd0b745b9aa0dc06165e99bf.png"
+  },
+  {
+    "type": "image",
+    "original_url": "https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/760e0e18-30db-4df6-9281-870b45b0117e/banner1.jpg",
+    "alt": "",
+    "title": "",
+    "caption": "Jump to section",
+    "local_path": "geoguessr_data/images/05b0a208e04fb7c3f74119772ca455f0.jpg"
+  },
+  {
+    "type": "h2",
+    "text": "Beginner’s Guide to Geoguessr"
+  },
+  {
+    "type": "p",
+    "text": "Jump to section"
+  },
+  {
+    "type": "p",
+    "text": "Game mechanics"
+  },
+  {
+    "type": "p",
+    "text": "Gamemodes"
+  },
+  {
+    "type": "p",
+    "text": "What to look for in-game"
+  },
+  {
+    "type": "p",
+    "text": "How do I get better at Geoguessr?"
+  },
+  {
+    "type": "p",
+    "text": "Glossary"
+  },
+  {
+    "type": "p",
+    "text": ""
+  },
+  {
+    "type": "h3",
+    "text": "What to look for in-game"
+  },
+  {
+    "type": "p",
+    "text": "In order to make an educated guess, experienced Geoguessr players will look for specific clues and consider a variety of different factors. In this section we will explain the most common types of clues you should try to look for when you load into a round of Geoguessr."
+  },
+  {
+    "type": "p",
+    "text": "A single type of clue will not work for every country, as some countries can be easily recognized by a very specific clue that only applies to it, while others require using a combination of many of the clues detailed below. At first we recommend focusing on the clues that you will see in most rounds, and steadily incorporating more obscure clues into your arsenal."
+  },
+  {
+    "type": "p",
+    "text": "To learn more about the specific applications of the different types of clues, you may look at each respective country’s Plonk It Guide."
+  },
+  {
+    "type": "p",
+    "text": "Due to the length of this page, here are shortcuts to the main sections in which it is divided."
+  },
+  {
+    "type": "h3",
+    "text": "General clues"
+  },
+  {
+    "type": "p",
+    "text": ""
+  },
+  {
+    "type": "h4",
+    "text": "Sun direction"
+  },
+  {
+    "type": "p",
+    "text": "One of the most basic clues present in most rounds of Geoguessr is the direction of the Sun. When the Sun is clearly towards the south, you will be in the Northern Hemisphere, and when the Sun is clearly north, you will be in the Southern Hemisphere. Experienced players will not usually look at the Sun in most rounds, but it is still a very important clue on hard rounds."
+  },
+  {
+    "type": "image",
+    "original_url": "https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/b75aa91d-e6bd-4b28-99a2-6857e56f45e7/whattolook_sundirection.png",
+    "alt": "",
+    "title": "",
+    "caption": "",
+    "local_path": "geoguessr_data/images/577aa71849c0405ff4a47c95f52ecf05.png"
+  },
+  {
+    "type": "p",
+    "text": "It is important to keep in mind that between the Tropics of Cancer and Capricorn the Sun may appear north in the Northern Hemisphere and vice versa during the summer months. You should only trust it completely when the direction of the sun is closer to north or south than it is to east or west."
+  },
+  {
+    "type": "h4",
+    "text": "Driving side"
+  },
+  {
+    "type": "p",
+    "text": "As the vast majority of rounds in Geoguessr are on roads, the side of the road which cars drive on can be a very fast way to exclude a good number of countries."
+  },
+  {
+    "type": "image",
+    "original_url": "https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/01e5c5f9-9057-4b8b-a7ef-f77fe1831766/Driving+direction+v6.png",
+    "alt": "",
+    "title": "",
+    "caption": "",
+    "local_path": "geoguessr_data/images/0d4b03e5e3a74a22e839df731ed7d4d0.png"
+  },
+  {
+    "type": "p",
+    "text": "Only a few countries present in the game drive on the left side of the road. Countries marked green only have very limited trekker or tripod coverage, so driving side is rarely a relevant clue. You can click on this image to enlarge it."
+  },
+  {
+    "type": "p",
+    "text": "When there are no other cars nearby, you can still tell the driving side in a couple of ways. Traffic signs will be set up on the same side as the cars drive, some parts of the Google car might be visible, such as the antenna in the back of the car, and on dirt roads you will sometimes see a trail of dust behind the car. The driving wheel will almost always be on the side that is closer to the centre of the road, on the left for right hand side driving and vice versa. One of the few exceptions to this rule is cars imported from Japan in eastern Russia."
+  },
+  {
+    "type": "image",
+    "original_url": "https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/a3206ce5-384e-4864-9422-51218abd8710/beginners_drivingside.png",
+    "alt": "",
+    "title": "",
+    "caption": "Some common ways you can deduce the driving side. In Gen 4 coverage the difference between the front of the car and the back is very subtle, and you will usually only see one of them.",
+    "local_path": "geoguessr_data/images/b2af43d3c1deb45eb19ed0986128ab07.png"
+  },
+  {
+    "type": "p",
+    "text": "Some common ways you can deduce the driving side. In Gen 4 coverage the difference between the front of the car and the back is very subtle, and you will usually only see one of them."
+  },
+  {
+    "type": "h4",
+    "text": "Language"
+  },
+  {
+    "type": "p",
+    "text": "Language is one of the most common clues you will find in urban rounds. Most countries present in Geoguessr use the Latin script, and therefore you need to learn special characters or diacritics, as well as develop a feel for how each language looks, to be able to tell which language you are looking at. However, several countries, especially in Asia, have unique scripts that can easily give you the country in a round."
+  },
+  {
+    "type": "image",
+    "original_url": "https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/5e4e9c6c-fc6c-4c47-a228-c249e30502cb/beginners_languages.png",
+    "alt": "",
+    "title": "",
+    "caption": "",
+    "local_path": "geoguessr_data/images/a3691f7590c94ef8605237ca692786dc.png"
+  },
+  {
+    "type": "p",
+    "text": "It is worth mentioning that languages and scripts can also be used to regionguess. For example, India has 23 official languages, many of which are written in different scripts and spoken in different regions. Comparing the symbols from the text you see in the round to the place names you see in the map can be an effective tool to regionguess India at a basic level. Some countries do not have its own language, like Switzerland, which has French, German and Italian speaking regions. In other countries, like Spain, there are regional languages unique to their own regions."
+  },
+  {
+    "type": "h4",
+    "text": "Flags and domains"
+  },
+  {
+    "type": "p",
+    "text": "One of the most intuitive clues new players use are country flags and internet domains. While knowing the flag and domain of every country found on Street View is a basic skill for a Geoguessr player, we do not recommend relying on it too much as a new player. The gameplay loop of moving until you find a flag, url, etc. and guessing in the middle of that country does not promote learning and hinders the experience."
+  },
+  {
+    "type": "image",
+    "original_url": "https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/aec7a634-ff38-4e1d-93c6-2580c4903efe/beginners_flagsdomains.png",
+    "alt": "",
+    "title": "",
+    "caption": "",
+    "local_path": "geoguessr_data/images/891190572efa572dad6a727810a8a743.png"
+  },
+  {
+    "type": "p",
+    "text": "Some flags can be confused with each other, for example Malaysia uses a similar flag to the US and Ecuador’s flag has the exact same colour pattern as Colombia. While some domains are very intuitive, such as .nz (or .co.nz) for New Zealand, others can be deceiving. For example, the domain for Switzerland is .ch (standing for “Confoederatio Helvetica”, the country’s official name in Latin)."
+  },
+  {
+    "type": "h3",
+    "text": "Architecture"
+  },
+  {
+    "type": "p",
+    "text": "Architecture will almost always be a good clue in any urban or semi-urban round. Building styles, techniques, and materials can vary wildly throughout the world, and even within a medium-sized country. Whenever you can see any sort of building, it is always worth looking at and try to think of which countries it fits best in."
+  },
+  {
+    "type": "p",
+    "text": ""
+  },
+  {
+    "type": "image",
+    "original_url": "https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/d170db86-1065-43b3-b104-602cc25242d5/whattolook_architecture2.png",
+    "alt": "",
+    "title": "",
+    "caption": "",
+    "local_path": "geoguessr_data/images/b0b41e67cd322ee7a2a8fe092daf004c.png"
+  },
+  {
+    "type": "p",
+    "text": "Houses in eastern US and Canada are often one or two storey wooden buildings. Alpine architecture usually features big white houses with dark wooden details. Elaborated roofs with wooden supports are characteristic of Japanese architecture. Some areas in Peru and Bolivia have almost exclusively flat roofed houses with exposed red bricks."
+  },
+  {
+    "type": "p",
+    "text": "It is important to keep in mind that architecture tips can be inconsistent, people can build houses in the style of another country for a variety of reasons, and new development can look nothing like traditional architecture of the country. Nonetheless, it is a very good clue to learn."
+  },
+  {
+    "type": "p",
+    "text": "The key clue to recognize some countries or regions can be any sort of detail about the architecture. Roofs are a very common clue used by Geoguessr players in some countries as they can usually be seen from afar."
+  },
+  {
+    "type": "image",
+    "original_url": "https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/113f5401-771b-4c3d-8a26-4611aa81cb32/beginners_roofs.png",
+    "alt": "",
+    "title": "",
+    "caption": "",
+    "local_path": "geoguessr_data/images/559396e0e8ea67b213bccc1f7efff473.png"
+  },
+  {
+    "type": "p",
+    "text": "Within Indonesia, tiled roofs with patchy colours are a good clue for the island of Java. The vast majority of buildings in Luxembourg have a black tiled roof. Nigerian houses often have a big metallic roof. Houses in Bulgaria are infamous for their poorly made tiled roofs."
+  },
+  {
+    "type": "p",
+    "text": "Sometimes, very specific regions of the world have unique buildings or architectural techniques that can get you extremely close guesses if you know them."
+  },
+  {
+    "type": "image",
+    "original_url": "https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/8ab93b09-1138-45be-a291-f666095201d7/beginners_quirkyarchitecture.png",
+    "alt": "",
+    "title": "",
+    "caption": "",
+    "local_path": "geoguessr_data/images/d25cd378502d06b518156a285521ee1d.png"
+  },
+  {
+    "type": "p",
+    "text": "In a small part of Apulia, Italy, you can find cone-shaped stone roofs on buildings called Trullo. In Dalarna, Sweden, you can find highly decorated chimneys reminiscent of crowns. Traditional houses called Tongkonan are only found in a small part of South Sulawesi, Indonesia. They are typically built on stilts and feature big boat-shaped roofs. In the Northern region of Asturias, Spain, granaries built on pillars called Horreos are very common."
+  },
+  {
+    "type": "h3",
+    "text": "Landscape"
+  },
+  {
+    "type": "p",
+    "text": "The landscape around you is naturally one of the most basic clues to use in a Geoguessr round. It is completely normal for new players to feel like forests and mountains around the world are impossible to distinguish from each other, however, with a little bit of practice and reading guides, anyone can overcome this initial stage and learn how to confidently tell apart different countries just by their landscapes."
+  },
+  {
+    "type": "p",
+    "text": ""
+  },
+  {
+    "type": "image",
+    "original_url": "https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/afdee0ac-b49b-4703-ac95-efd24f94d266/beginners_landscape.png",
+    "alt": "",
+    "title": "",
+    "caption": "",
+    "local_path": "geoguessr_data/images/4ae75fb2fe78ba2870a2e497bf76b4b0.png"
+  },
+  {
+    "type": "p",
+    "text": "The Peruvian part of the Altiplano usually features a semi-arid look with only low vegetation. The Gobi Desert in Mongolia is one of the most arid places with coverage in Street View. Temperate forests and farmland cover most of Western and Central Europe. In Alaska snowy mountains and fjords are very common."
+  },
+  {
+    "type": "p",
+    "text": "Sometimes, Geoguessr players will say that a round without any concrete clues “just looks like…”. Getting a feel for how a country or region usually looks requires experience, either playing the game or clicking around in Google Maps (usually called coverage checking). However, a landscape can be broken down into small pieces that you can look for instead of just getting a general view of the round. In the following sections we will try to describe some of the things that are commonly used to go from “this is just a road with trees around” to an educated regionguess confidently in one country."
+  },
+  {
+    "type": "h4",
+    "text": "Vegetation and crops"
+  },
+  {
+    "type": "p",
+    "text": "In rural rounds, there will almost always be trees and plants around the road. These can be both wild and planted by humans, but will very often be useful to extract information as to where a round could be. From the basic distinction of temperate forest to rainforest, to learning the range and key identifying characteristic of specific species, botanical knowledge is a very strong tool that Geoguessr players slowly build."
+  },
+  {
+    "type": "image",
+    "original_url": "https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/77c80b51-8ef3-417c-9c40-b0b830900423/whattolook_vegetation.png",
+    "alt": "",
+    "title": "",
+    "caption": "",
+    "local_path": "geoguessr_data/images/b8b3e2eb9c9d4b0acac1bd7133c894c9.png"
+  },
+  {
+    "type": "p",
+    "text": "Baltic pine forests can be commonly found in most of Northern and Central Europe. Prickly pear cacti can be found in the driest parts of Mediterranean Europe. An invasive species of Ivy covers most trees of the RP18 in Salta, Argentina. This road is famous in the community due to its usage as a bait location in many maps. Açai palms can be used to regionguess the state of Pará, in Brazil, but can be found throughout the Amazon rainforest."
+  },
+  {
+    "type": "p",
+    "text": "Crops can also be a useful piece of information for a Geoguessr player. Since most countries have a government branch regulating and keeping track of agriculture, research into this topic for advanced regionguessing is very common. However, agriculture can still be used on a basic level to have an idea of the continent."
+  },
+  {
+    "type": "image",
+    "original_url": "https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/3096499d-02e1-449d-b7c7-4b8a2653b94f/beginners_crops.png",
+    "alt": "",
+    "title": "",
+    "caption": "",
+    "local_path": "geoguessr_data/images/bd1f28cb866ca3427aea5338df49eefc.png"
+  },
+  {
+    "type": "p",
+    "text": "Corn and cereals like wheat are the most common crops in North America and Europe. Rice is extremely common to see in the agricultural areas of Asia. Wine is usually produced in specific regions, such as the Veneto region in Italy."
+  },
+  {
+    "type": "h4",
+    "text": "Geological features"
+  },
+  {
+    "type": "p",
+    "text": "The colour of the soil, especially in countries with many dirt roads, can be a very useful tool. Some countries and regions are known to have very red looking soil. Similarly, others can have extremely bright and/or sandy soil. This is something that usually requires experience and playing, since distinct soils have a certain look that, while easy to recognize, is very hard to describe."
+  },
+  {
+    "type": "image",
+    "original_url": "https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/95fe235f-783b-4814-b4ef-0788e90b2550/beginners_dirt.png",
+    "alt": "",
+    "title": "",
+    "caption": "",
+    "local_path": "geoguessr_data/images/c30e3244146e98f9ce0ade9dc19a9b68.png"
+  },
+  {
+    "type": "p",
+    "text": "Brazil is known for having some of the reddest soil in the world. Very dark soil is common in places with volcanic activity, such as Iceland. Some players claim “Russian dirt” looks unique. The Yucatan Peninsula in Mexico has extremely bright and sandy soil."
+  },
+  {
+    "type": "p",
+    "text": "Last but not least, the topography of a country is a fundamental clue for getting a round right. While learning which countries have the biggest mountains or where you can find very flat areas is easy, you need to pay attention to the features that makes the landscape of a certain country unique in order to use it as a source of information in your games."
+  },
+  {
+    "type": "image",
+    "original_url": "https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/8c65a3a9-6bc4-49d2-b90f-77b64542a7b3/beginners_elevation.png",
+    "alt": "",
+    "title": "",
+    "caption": "",
+    "local_path": "geoguessr_data/images/5c16930c1a6832b51b0baf308801e067.png"
+  },
+  {
+    "type": "p",
+    "text": "Netherlands is typically an extremely flat country. Eastern Romania has a rolling, agricultural landscape. The unique erosion pattern of the mountains in Lesotho can be recognized by the horizontal layers of exposed rock and the many table top mountains. The mountains of Lofoten in Norway are the spikiest in the country, featuring a particularly jagged look."
+  },
+  {
+    "type": "p",
+    "text": "Checking the terrain map of different countries, while practising or after rounds, and correlating that information with the elevation changes you see in the round, is a very good way to learn the topography of different countries."
+  },
+  {
+    "type": "h3",
+    "text": "Infrastructure"
+  },
+  {
+    "type": "p",
+    "text": "Due to the nature of Google Street View, most rounds of Geoguessr will be on roads. Therefore, the most consistently useful clues are things that appear on, or next to, roads."
+  },
+  {
+    "type": "p",
+    "text": "The material of the road, colour of the roadlines, bollards and roadside utility poles are extremely common items used by Geoguessr players to know what country a round is in, or even guess the right region of a country."
+  },
+  {
+    "type": "p",
+    "text": ""
+  },
+  {
+    "type": "h4",
+    "text": "Bollards"
+  },
+  {
+    "type": "p",
+    "text": "Bollards are small safety markers typically placed next to the road. Roadside bollards and other markers like snow poles are a very good clue to determine the country, as most countries that use them have a unique design. Trying to remember the most distinct bollards you see in your games is a very good first step towards consistently recognizing the country."
+  },
+  {
+    "type": "image",
+    "original_url": "https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/642c960f-9905-499c-aa0d-93821b5d12ee/whattolook_bollard.png",
+    "alt": "",
+    "title": "",
+    "caption": "Mexican and Icelandic bollards are completely unique to their respective countries. You can also find the French bollard design in Senegal, and the Italian design in Albania and San Marino.",
+    "local_path": "geoguessr_data/images/2da7328aa38b2d1a1993571ca7230299.png"
+  },
+  {
+    "type": "p",
+    "text": "Mexican and Icelandic bollards are completely unique to their respective countries. You can also find the French bollard design in Senegal, and the Italian design in Albania and San Marino."
+  },
+  {
+    "type": "p",
+    "text": "A very important detail about bollards, particularly in Europe, is the shape and colour of the reflectors. Superficially similar bollards can often be distinguished  by their reflectors. For example, Spain and Germany both have white, wedge-shaped bollards with a long rectangular reflector in the front and two circular reflectors in the back. The key difference is that the front reflector is yellow in Spain."
+  },
+  {
+    "type": "h4",
+    "text": "Roadlines and material"
+  },
+  {
+    "type": "p",
+    "text": "As most locations on Street View are on paved roads, the colour and shape of the roadlines, as well as the material and quality of the road, are extremely consistent clues to narrow down a location to only a few countries. Roadlines on their own will rarely define a country, but combined with other clues they become one of the most reliable things to use in your games."
+  },
+  {
+    "type": "image",
+    "original_url": "https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/4b972fe8-b605-4788-a454-a1114187a11a/whattolook_roadlines.png",
+    "alt": "",
+    "title": "",
+    "caption": "",
+    "local_path": "geoguessr_data/images/14309196845d5d45bf279c2a6a9052c9.png"
+  },
+  {
+    "type": "p",
+    "text": "Norway is the only country in Northern Europe with long outside dashes. Double yellow middle lines are very common in the Americas, and the most common roadline in the US. Outside yellow lines are a very good clue for the countries in the south of Africa and the Middle East. Zig Zag style lines in urban areas are very common in the United Kingdom."
+  },
+  {
+    "type": "p",
+    "text": "The quality and material of a road can also be a way to guess a location. It is not as consistently useful, but it can be a very strong clue for a few countries and regions. For example, only a handful countries use concrete roads commonly, and poorly maintained roads are significantly more common in some countries than others."
+  },
+  {
+    "type": "image",
+    "original_url": "https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/543eefc9-a036-4c4d-9633-97be6574252b/beginners_roadtype.png",
+    "alt": "",
+    "title": "",
+    "caption": "",
+    "local_path": "geoguessr_data/images/25ff8ddb8442235640a0b420de02f099.png"
+  },
+  {
+    "type": "p",
+    "text": "Almost every paved road in Philippines is composed of concrete slabs. Roads in Ukraine are frequently very damaged, with many patches of new asphalt covering potholes. Roads made out of small bricks in the pattern pictured are characteristic of Dutch residential areas. Roads with a strong red tint are very common in Dalarna County in Sweden."
+  },
+  {
+    "type": "h4",
+    "text": "Traffic and directional signs"
+  },
+  {
+    "type": "p",
+    "text": "Traffic signs can have many distinct features that players use to recognize the country. Some clues may be obvious, like the stop signs pictured below, while others are more subtle, like the thickness of the red border in a traffic sign or the font used in a speed limit sign."
+  },
+  {
+    "type": "p",
+    "text": "Other road related signs, such as kilometre/mile markers can also be unique to a country or group of countries."
+  },
+  {
+    "type": "image",
+    "original_url": "https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/01bb9a93-6dee-4eca-9889-871ccd716e82/whattolook_signs.png",
+    "alt": "",
+    "title": "",
+    "caption": "Israel, Malaysia and Thailand have unique Stop signs.",
+    "local_path": "geoguessr_data/images/561d9e9455b0b099125daebef26d5b27.png"
+  },
+  {
+    "type": "p",
+    "text": "Israel, Malaysia and Thailand have unique Stop signs."
+  },
+  {
+    "type": "p",
+    "text": "While most of the time you see a directional sign you can use the placename to deduce what country you are in, knowing the designs used by different countries can also be a strong clue when you are playing No Move or NMPZ."
+  },
+  {
+    "type": "image",
+    "original_url": "https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/dd87c16c-4aa7-43c2-ad6b-0d54639109f3/beginners_directionalsigns1.png",
+    "alt": "",
+    "title": "",
+    "caption": "",
+    "local_path": "geoguessr_data/images/2d1785ddde89204ccdd33c1a04ced29f.png"
+  },
+  {
+    "type": "p",
+    "text": "Austria and Slovenia can be very hard to tell apart in some rounds, but Slovenia uses yellow directional signs, while Austrian ones are white. Estonian and Finnish are closely related languages, and placenames can look very similar. You can recognize their directional signs by the arrow. Estonia has a small arrow drawn in the sign, while Finland incorporates it into the white border."
+  },
+  {
+    "type": "h4",
+    "text": "Street Signs"
+  },
+  {
+    "type": "p",
+    "text": "Street signs can be a very useful clue in urban rounds. They, of course, are very helpful towards pinpointing a round, but they can also be used to know the country or the city in formats that do not require you to 5k. For example, many languages have unique words for “street”. Also, some big cities have very distinct street signs that players have learnt to recognize."
+  },
+  {
+    "type": "image",
+    "original_url": "https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/883b8877-537e-4b92-8320-0cf29f408179/beginners_streetsigns.png",
+    "alt": "",
+    "title": "",
+    "caption": "",
+    "local_path": "geoguessr_data/images/8ea751d7e7569d69be5ac20013bdb62c.png"
+  },
+  {
+    "type": "p",
+    "text": "Ankara has blue street signs with an arched top. In Bucharest, street signs have a similar shape but with a characteristic green outline. The entire country of Singapore uses green street signs with white text in a distinct font. The city of Budapest uses white rectangular street signs with black text written in serif font. The district is written in the top row in Roman numerals."
+  },
+  {
+    "type": "p",
+    "text": "Some big cities are organized in districts or other form of subdivision that you can find in street signs. In some countries like Mexico or Brazil it is quite common to see postal codes in street signs, which can be used to regionguess."
+  },
+  {
+    "type": "h4",
+    "text": "Utility poles"
+  },
+  {
+    "type": "p",
+    "text": "Utility lines can be found next to roads in both urban and rural locations, and are therefore an extremely powerful tool to have in your arsenal. The material of the pole (wooden, concrete, metallic, etc.), the shape of the pole, or the poletop sustaining the wires, as well as various markings on the pole can all be determining factors to know where a location is."
+  },
+  {
+    "type": "image",
+    "original_url": "https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/f054fb94-715c-4820-b259-773cdd87e638/whattolook_poles.png",
+    "alt": "",
+    "title": "",
+    "caption": "",
+    "local_path": "geoguessr_data/images/4052aab7f1c2d7b2c8432a0ac7b6ba11.png"
+  },
+  {
+    "type": "p",
+    "text": "A double pole made of concrete as pictured is very common in Argentina. A wooden pole with a metallic frame, often holding five electricity lines, is a good clue for Greece. A diamond-shaped poletop holding three electricity lines underneath is known as a “French poletop” in the community, but can also be found in other countries like Spain and Senegal. A concrete pole with five thin and long holes is typical for Romania."
+  },
+  {
+    "type": "h4",
+    "text": "Vehicle registration plates"
+  },
+  {
+    "type": "p",
+    "text": "Cars and other vehicles will almost always have some sort of registration plate. The colour, shape, presence or lack of a front plate, or any particularly colourful markings can be used to recognize some countries."
+  },
+  {
+    "type": "image",
+    "original_url": "https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/2cc153e5-e681-4426-bb42-1e9d15a84334/beginners_licenceplates.png",
+    "alt": "",
+    "title": "",
+    "caption": "",
+    "local_path": "geoguessr_data/images/8f7db816d44941aa07b391574d6f95c3.png"
+  },
+  {
+    "type": "p",
+    "text": "Colombia is the only country in Latin America with yellow plates on private vehicles. Italian front plates are shorter than most European plates, and have a blue stripe on both ends. On most Ukranian plates you will be able to see the country’s flag on the left side. Each state in the US has unique license plates. Some, like Vermont, are very recognizable."
+  },
+  {
+    "type": "h3",
+    "text": "Coverage clues"
+  },
+  {
+    "type": "p",
+    "text": "Using Google Street View as the base for the game means that the locations found in game will always contain information relating to when and how that imagery was taken. The tips listed in this section are the hardest to grasp, as they are not things you would find if you were to travel to the country itself. Some players like to stay away from these types of clues as much as possible, but the reality is that some of them are extremely useful."
+  },
+  {
+    "type": "p",
+    "text": "We recommend playing in a way that you enjoy, however, there are many countries and regions for which the easier way of recognizing then is to use coverage clues, and are therefore found in Plonk It guides."
+  },
+  {
+    "type": "p",
+    "text": ""
+  },
+  {
+    "type": "h4",
+    "text": "Camera Generation"
+  },
+  {
+    "type": "p",
+    "text": "Google has mainly released footage with 4 different types of cameras that produce a distinct image quality, these are known as camera generations within the community (usually shortened to Gen 1/2/3/4)."
+  },
+  {
+    "type": "p",
+    "text": ""
+  },
+  {
+    "type": "image",
+    "original_url": "https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/f0c60338-d86e-42c6-b77a-ec1887a708f2/whattolook_cameragens.png",
+    "alt": "",
+    "title": "",
+    "caption": "Generation 1 coverage has extremely low resolution and is not used in most community maps due to its low quality. You should not find this in your games.",
+    "local_path": "geoguessr_data/images/3979c8c00fb0568d7d22f9c0bc9bf1ea.png"
+  },
+  {
+    "type": "p",
+    "text": "Generation 1 coverage has extremely low resolution and is not used in most community maps due to its low quality. You should not find this in your games."
+  },
+  {
+    "type": "p",
+    "text": "Generation 2 coverage can be easily distinguished by the wide circular blurs at both the bottom of the image (covering the car) and in the sky. Its resolution is still somewhat low and reading signs is often difficult."
+  },
+  {
+    "type": "p",
+    "text": "Generation 3 coverage has much better resolution than Gen 2, but the colours are generally rather unsaturated, making for dull-looking images. The sky will often look greyish even on sunny days."
+  },
+  {
+    "type": "p",
+    "text": "Generation 4 is the latest and highest quality available. It has the best resolution and vibrant colours, frequently resulting in slightly oversaturated images."
+  },
+  {
+    "type": "p",
+    "text": "There is also another camera used by Google, it is a low cost camera operated only in a few countries. It is known by the community as “shitcam“ due to its low quality. Despite this, “shitcam“ coverage keeps being released as of 2024. This camera can be identified by its low resolution and the wide circular blur covering the car."
+  },
+  {
+    "type": "p",
+    "text": "You can click on this image to enlarge it"
+  },
+  {
+    "type": "p",
+    "text": ""
+  },
+  {
+    "type": "image",
+    "original_url": "https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/7991df53-47c3-4f44-ba65-db60c103a5fe/whattolook_shitcam.png",
+    "alt": "",
+    "title": "",
+    "caption": "This camera is the only one used in India, and can also commonly be found in countries like Nigeria, Cambodia, Lebanon and Ecuador.",
+    "local_path": "geoguessr_data/images/29a143ddcfb32e0a418d298a8d9d7130.png"
+  },
+  {
+    "type": "p",
+    "text": "This camera is the only one used in India, and can also commonly be found in countries like Nigeria, Cambodia, Lebanon and Ecuador."
+  },
+  {
+    "type": "p",
+    "text": "Knowing the generations of camera that exist in each country can be a very powerful tool to narrow down the list of possible countries, but we only recommend learning this as an intermediate player."
+  },
+  {
+    "type": "h4",
+    "text": "Lowcam"
+  },
+  {
+    "type": "p",
+    "text": "In some countries, due to privacy concerns, the camera is mounted lower on the car, giving it a lower vantage point that can be easily recognized. This means that items around the ground will appear taller, and the blur on the Google car will be bigger than usual. The countries that use this camera exclusively are Liechtenstein, Switzerland and Japan. Sri Lanka uses this camera mounting in Generation 4 coverage."
+  },
+  {
+    "type": "image",
+    "original_url": "https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/012f4854-f9ec-4bce-a2b7-d99e1daf0b64/beginners_lowcam.png",
+    "alt": "",
+    "title": "",
+    "caption": "An example location of lowcam in Switzerland, notice how the corn is almost higher than the camera, compared to the view from above you would see in countries with regular camera like Spain.",
+    "local_path": "geoguessr_data/images/062a3e9839f9548598d67a88b416e456.png"
+  },
+  {
+    "type": "p",
+    "text": "An example location of lowcam in Switzerland, notice how the corn is almost higher than the camera, compared to the view from above you would see in countries with regular camera like Spain."
+  },
+  {
+    "type": "p",
+    "text": "Sometimes people mistake the big circular blur from Generation 2 coverage with lowcam, to avoid this mistake you should try to confirm that you have indeed a lower vantage point than usual. Generation 2 coverage also has a circular top blur that you will not find in lowcam. Another common way to mistake lowcam for regular camera and vice versa is when the round is on a road with a high incline. Normal camera can look like lowcam looking uphill and lowcam can pass for normal camera when looking downhill."
+  },
+  {
+    "type": "p",
+    "text": "Lastly, countries that use a big truck for their coverage have technically a lower camera mounting than usual, but they can be easily distinguished by the Google car (this topic will be discussed later on in this section) and that coverage is not referred to as lowcam by the community."
+  },
+  {
+    "type": "h4",
+    "text": "Unofficial coverage"
+  },
+  {
+    "type": "p",
+    "text": "In Google Maps, you can also find coverage submitted by private users and companies. This is usually referred to as “Unofficial Coverage”. While this coverage will not appear on competitive maps, you can encounter it in some maps aimed towards showcasing the diversity of the world."
+  },
+  {
+    "type": "p",
+    "text": "Unofficial coverage can be divided into two main categories:"
+  },
+  {
+    "type": "p",
+    "text": "Vehicle coverage: In vehicle coverage it’s very common to see all of the car (or bike, boat, etc.), as no small company or user has the technology to blur the car in the way Google does. In this type of coverage you can move around in the same way as in official coverage. It also shows up on the map as a blue line."
+  },
+  {
+    "type": "p",
+    "text": "Photospheres: These are single 360º images that users have uploaded to Google Maps. They can range from professional pictures to very poor quality images taken with a cellphone. They will show up on the map as small blue dots."
+  },
+  {
+    "type": "image",
+    "original_url": "https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/bd844a83-75cc-475f-849d-9cb5bbd7341d/beginners_unofficial.png",
+    "alt": "",
+    "title": "",
+    "caption": "",
+    "local_path": "geoguessr_data/images/ad866cf8fb0a8cfe688b0fdfaef30695.png"
+  },
+  {
+    "type": "p",
+    "text": "Road coverage with a completely visible vehicle is very typical in unofficial coverage. Photospheres can showcase incredible places, such as drone panoramas over Kamchatka or coral reefs in the Red Sea."
+  },
+  {
+    "type": "p",
+    "text": "Unofficial coverage can be a very interesting way to discover countries and territories that have not yet made its way into Google Street View. We have a section in our Map Directory showcasing our favourite maps based on unofficial coverage."
+  },
+  {
+    "type": "h4",
+    "text": "Street View Cars"
+  },
+  {
+    "type": "p",
+    "text": "In Generation 3 and 4, seeing parts of the Google Car is pretty frequent. In most places, this is just limited to the antenna or a small part at the back or front of the car, but in some countries you can see very big parts like the roof rack, a snorkel, or the entire front of the car."
+  },
+  {
+    "type": "image",
+    "original_url": "https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/7c3ca8d4-c83a-4552-b9b5-e05ac4b95a39/whattolook_carmetas.png",
+    "alt": "",
+    "title": "",
+    "caption": "",
+    "local_path": "geoguessr_data/images/a429b5a98dcdc9c8fea31bca8df1853d.png"
+  },
+  {
+    "type": "p",
+    "text": "A grey truck, often featuring a snorkel, can be found in Gen 4 coverage in Kenya. All of the coverage in Kyrgyzstan features a car with a visible roofrack and rear view mirrors. A black car with a long antenna is very common in Russia. All of the Gen 3 coverage in Argentina was taken with a black car where the back is visible. In Latin America this car also exists in Uruguay and Peru."
+  },
+  {
+    "type": "p",
+    "text": "In countries that have limited coverage, knowing the car or cars Google used to map the country can be a very easy way to recognize the country. In countries that do not receive frequent coverage, subtle differences in the Google Car are used to guess the right region or even the exact road."
+  },
+  {
+    "type": "p",
+    "text": "It is important to mention that sometimes the way the community talks about certain cars can be confusing at first. For example, when people say that a “white car” only exists in Bolivia, Chile and Peru within Latin America, they are referring to this specific car in Generation 3 coverage. You can find a white car in Generation 4, as well as different white cars in Generation 3 that are blurred differently or have an antenna."
+  },
+  {
+    "type": "h4",
+    "text": "Season of the coverage"
+  },
+  {
+    "type": "p",
+    "text": "Sometimes, specific regions or countries receive all or most of their coverage during a single season. This can give the place a specific look. As with all of the clues mentioned in the “meta” section, this is especially common in low coverage countries. Even without paying active attention to the season, these countries will have a unique look that is in big part determined by the season, and therefore becomes an unavoidable coverage meta."
+  },
+  {
+    "type": "image",
+    "original_url": "https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/16c8a454-fe8f-459f-ac2c-edd22d46518c/beginners_seasonalcoverage.png",
+    "alt": "",
+    "title": "",
+    "caption": "",
+    "local_path": "geoguessr_data/images/0be1120d26927dc0991df75169e4bd0a.png"
+  },
+  {
+    "type": "p",
+    "text": "All of the coverage in Kyrgyzstan was taken between October and December, and therefore features a winter or fall look throughout the country. Most coverage in Andorra was taken during fall. Generation 4 coverage with snow in Turkey is limited to a small region south-east of Kayseri and around Erzurum. Generation 3 coverage with snow in Finland can only be found in the far north-west of Lapland."
+  },
+  {
+    "type": "p",
+    "text": "As you can see in the examples above, seasonal metas in well-covered countries are frequently linked to the camera generation and/or the car meta. This way of regionguessing is not really recommended for beginner and intermediate players, and is mostly used by top players and players that specialize in a single country."
+  },
+  {
+    "type": "p",
+    "text": "It is very important to remember that the season can give a very different look to a round of Geoguessr. Countries in temperate climates with four distinct seasons can look depressing in winter and vibrant in spring and summer. Likewise, tropical countries can look drastically different between dry and wet seasons."
+  },
+  {
+    "type": "h3",
+    "text": "Anything can be a clue"
+  },
+  {
+    "type": "p",
+    "text": "There is not a single type of clue that will work for every country, and likewise, there are also some very specific clues that only apply to a single country or a small region but can still be very effective."
+  },
+  {
+    "type": "p",
+    "text": ""
+  },
+  {
+    "type": "image",
+    "original_url": "https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/354e351e-ce3d-459b-92da-9a1b42ba2a74/beginners_randommetas1.png",
+    "alt": "",
+    "title": "",
+    "caption": "",
+    "local_path": "geoguessr_data/images/3256e4059c6f3c2815d1e1ff582cb43d.png"
+  },
+  {
+    "type": "p",
+    "text": "Portugal marks hunting grounds with red diamond-shaped signs with a white circle. An easy way to tell apart Pakistan trekkers from Indian trekkers is looking at men’s clothing. In Pakistan you will often see men wearing baggy pants, which is uncommon in India. Cigarette advertisement is banned in most of the world, however, it is extremely commonplace in Indonesia, to the point that it has become a way to easily confirm the country. Tuk-tuks are a very popular method of transportation in the Philippines and have distinct regional designs, the one pictured is unique to the island of Palawan."
+  },
+  {
+    "type": "p",
+    "text": "As you can see, Geoguessr players have found very niche ways to help them make better guesses. However, sometimes they take it a step too far and start to see patterns where there are not…"
+  },
+  {
+    "type": "h4",
+    "text": "Fake metas"
+  },
+  {
+    "type": "p",
+    "text": "When a clue that is not completely true spreads around in the community it becomes what is referred to as a “Fake meta”. These clues can range from completely inaccurate information, to something that works most of the time, so it’s important to be aware of them."
+  },
+  {
+    "type": "p",
+    "text": "In some countries, infrastructure clues can be somewhat inconsistent. For example, poletops in Indonesia are a very good regionguessing meta. However, it is not uncommon to find a poletop in a place where it is not “supposed” to be. This does not mean that the clue is fake and you should not learn it, just that it is not 100% accurate."
+  },
+  {
+    "type": "p",
+    "text": "A good example of a fake meta that kind of works is Estonian White Flowers. Seeing white flowers like those next to the road in a location that looks like a Baltic country became a clue for Estonia. These flowers, and similar looking ones, can be found all throughout the Baltics. Nevertheless, they are more common to find in Estonia, particularly in Generation 3 coverage, so if you are in a true toss-up and you see a good amount of white flowers, it can be a good idea to go Estonia."
+  },
+  {
+    "type": "p",
+    "text": "Finally, in rare ocasions a completely inaccurate clue spreads around the community. These are very rare, and will mostly be called out quickly, but a very small amount have made their way into high profile video tutorials."
+  },
+  {
+    "type": "h2",
+    "text": "«\n1\n2\n3\n»"
+  },
+  {
+    "type": "p",
+    "text": "© 2021-2024 Plonk It."
+  },
+  {
+    "type": "image",
+    "original_url": "https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/dba4ed98-d3d0-4802-b70e-c35090b936db/p.png?format=1500w",
+    "alt": "Plonk It",
+    "title": "",
+    "caption": "Jump to section",
+    "local_path": "geoguessr_data/images/60568579cd0b745b9aa0dc06165e99bf.png"
+  },
+  {
+    "type": "image",
+    "original_url": "https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/dba4ed98-d3d0-4802-b70e-c35090b936db/p.png?format=1500w",
+    "alt": "Plonk It",
+    "title": "",
+    "caption": "Jump to section",
+    "local_path": "geoguessr_data/images/60568579cd0b745b9aa0dc06165e99bf.png"
+  },
+  {
+    "type": "image",
+    "original_url": "https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/8d7ebf29-197f-4ff0-8944-a00eae30fda6/banner2.png",
+    "alt": "",
+    "title": "",
+    "caption": "Jump to section",
+    "local_path": "geoguessr_data/images/fd5b8868c4ba59ac9afa650edb19cfa4.png"
+  },
+  {
+    "type": "h2",
+    "text": "Beginner’s Guide to Geoguessr"
+  },
+  {
+    "type": "p",
+    "text": "Jump to section"
+  },
+  {
+    "type": "p",
+    "text": "Game mechanics"
+  },
+  {
+    "type": "p",
+    "text": "Gamemodes"
+  },
+  {
+    "type": "p",
+    "text": "What to look for in-game"
+  },
+  {
+    "type": "p",
+    "text": "How do I get better at Geoguessr?"
+  },
+  {
+    "type": "p",
+    "text": "Glossary"
+  },
+  {
+    "type": "p",
+    "text": "This is one of the most frequently asked questions about Geoguessr, and the reality is that there is not one single right answer. Some people become very good by playing thousands upon thousands of games and grinding through the rounds. Others prefer a much more analytical approach, studying documents and guides, as well as mapping out specific clues, covering everything from vegetation and infrastructure to coverage metas in order to discover new information. The best way to learn and improve will always be the one you enjoy the most."
+  },
+  {
+    "type": "p",
+    "text": "Playing games of Geoguessr and seeing many rounds is always going to help you improve, however, there are some good practices and external tools that can make the learning process faster."
+  },
+  {
+    "type": "p",
+    "text": ""
+  },
+  {
+    "type": "h3",
+    "text": "How do I get better at Geoguessr?"
+  },
+  {
+    "type": "h4",
+    "text": "Checking a round after a mistake"
+  },
+  {
+    "type": "p",
+    "text": "One of the most important things to do after making a mistake is to go back to the round and look at it with the knowledge of where the round was. For example, look at things that seem distinct, as seen in the “What to look for in-game” section, and try to match them with clues featured in the Plonk It guides."
+  },
+  {
+    "type": "p",
+    "text": "This can be both an opportunity to learn new clues or to realize what kind of clues that you already knew about may have missed."
+  },
+  {
+    "type": "p",
+    "text": "Another very useful thing to do is to check the area around where you made your mistaken guess and note the differences you can find with the actual location."
+  },
+  {
+    "type": "h4",
+    "text": "Playing with the right settings"
+  },
+  {
+    "type": "p",
+    "text": "While the most important thing in every game is to have fun playing, there are some gamemodes and settings that promote learning more than others."
+  },
+  {
+    "type": "p",
+    "text": "We strongly recommend only playing moving games with the intention of achieving a perfect score in every round. Moving until you find a country specific clue you already know and then guessing in the middle of the country hampers learning new clues. If you are just playing to recognize the country, we recommend playing No move on community-made world maps and using a community-made script to keep track of your streak, instead of playing the official Streaks mode."
+  },
+  {
+    "type": "p",
+    "text": "Different settings can reward and incentivize knowledge of certain topics. For example, moving games incentivize learning placenames and how the road system of different countries works. Meanwhile, in No Move and NMPZ games niche clues to recognize the country become much more important. Both are legitimate ways of playing Geoguessr and apply different skill sets."
+  },
+  {
+    "type": "p",
+    "text": "Competitive gamemodes are the way to test your skills against other players, but are generally not a time-effective way to learn. However, the high stakes can incentivize remembering specific clues you did not know that cost you a game."
+  },
+  {
+    "type": "h4",
+    "text": "Reading guides and documents"
+  },
+  {
+    "type": "p",
+    "text": "Community guides and documents are one of the pillars of Geoguessr learning. Many people find researching their favourite countries interesting, and the result can be hundreds of pages worth of documents going into every single thing that can be used to nail a round in that country."
+  },
+  {
+    "type": "p",
+    "text": "Plonk It Guides: If you are here you probably know about our guides. We aim to make beginner-friendly guides that focus on high yield metas with a really digestible presentation. Guides are generally divided in three steps. The first one focuses on country recognition. Step 2 focuses on regionguessing and Step 3 showcases very specific areas that are recognizable and notable in some way."
+  },
+  {
+    "type": "p",
+    "text": "Regionguessing Meta Library (link): This sheet collects almost every published document in English about individual countries. It has very useful descriptions of the documents detailing the scope and usefulness of each resource."
+  },
+  {
+    "type": "p",
+    "text": "GeoHints (link): This site is a massive collection of infrastructure and meta clues categorized by type. Beware that clues are shown without any indication of how common or useful they are, so it is more fit to be used by experienced players that know what they are looking for. Nevertheless, if you are wondering if something exists in a country in terms of infrastructure, if you cannot find it here, it probably does not exist."
+  },
+  {
+    "type": "p",
+    "text": "Youtube videos: Many Geoguessr youtubers post educational content. From very quick and basic “Tips everyone should know” kind of videos, to hour-long videos about regionguessing a single country, there is a lot to be learned from watching experienced players share their thought process and the clues they use."
+  },
+  {
+    "type": "h4",
+    "text": "External tools"
+  },
+  {
+    "type": "p",
+    "text": "In this section we will list the most common tools used by Geoguessr players to learn outside of the game itself. Note that the scripts require a browser addon such as TamperMonkey."
+  },
+  {
+    "type": "p",
+    "text": "Map Making App (link): The best tool for clicking around the map to check coverage. It has features to remove the blue lines and dots from unofficial coverage, as well as tags."
+  },
+  {
+    "type": "p",
+    "text": "Geoguessr Training Script (link - explanatory video): This script allows you to toggle the terrain map as well as the blue coverage lines in-game to help learn the landscape and the extent of the coverage in a country. You can also connect this script with the Map Making App in order to save locations directly from the Geoguessr game into a map of your choice. The script also allows you to turn on and off the compass as well as hiding the Google Car. Be aware that using this script in any competitive gamemode is considered cheating."
+  },
+  {
+    "type": "p",
+    "text": "geo.emily (link): A website featuring quizzes for learning clues, such as writing systems, phone codes and subdivision names, and also a tool to check when coverage in different regions were added, which can be used to learn camera generation metas as well as seasonal and car metas."
+  },
+  {
+    "type": "p",
+    "text": "Plonk it Quizzes: In the Plonk It Discord server there is a section where you can take various quizzes, including the subdivisions of countries and many country or region specific clues."
+  },
+  {
+    "type": "h4",
+    "text": "Playing and interacting with other people"
+  },
+  {
+    "type": "p",
+    "text": "The community aspect of Geoguessr is one of the main reasons why the game is alive and well, and why the collective knowledge keeps getting bigger and bigger. Plonk It began years ago as a small group of enthusiastic people that loved Geoguessr, and has now grown to over ten thousand discord members, a finished guide to almost every country in Geoguessr and the most active records leaderboard in the community. This is all thanks to people playing and talking with each other, sharing their research, etc. Feel absolutely free to ask any questions you may have in the Discord server, there is always going to be someone happy to help."
+  },
+  {
+    "type": "p",
+    "text": "Playing with people with a skill level significantly above or below yours is rarely fun for anyone involved. We recommend finding people around your skill level to play together as a way to make the game more fun and learn. In the Plonk It Discord Server we have a channel called #looking-to-play where you can find other players interested in playing."
+  },
+  {
+    "type": "p",
+    "text": "Watching YouTube videos, live streams and playing Chatguessr can also be a great way to learn, you can listen to the streamer’s thought process as they play the rounds, and ask in chat what the give-away was after a round that was particularly difficult for you."
+  },
+  {
+    "type": "h3",
+    "text": "What should I focus on?"
+  },
+  {
+    "type": "p",
+    "text": "Most general good practices have been already covered in this section, the following points will be more specific ways to get better."
+  },
+  {
+    "type": "h4",
+    "text": "Focusing on the most effective clues"
+  },
+  {
+    "type": "p",
+    "text": "One big question that many beginners have is what to learn first. Should you learn every bollard in Europe, or should you spend that effort learning different Google cars around the world? This is a hard question to answer, but we can try to answer it from the most general way of “being good at the game”."
+  },
+  {
+    "type": "p",
+    "text": "Focus on the country identification clues that you encounter more often: As we have discussed previously, the easiest and most consistent ways to identify a country can vary wildly."
+  },
+  {
+    "type": "p",
+    "text": "In Europe, bollards and poles are a very effective clue, but consistent country identification in No Move rounds can require learning dozens of different small clues per country."
+  },
+  {
+    "type": "p",
+    "text": "In the Americas landscape is probably the most important clue, as many countries are large and feature several distinct biomes. Poles can be very useful both in country identification and regionguessing. One clue that is particularly useful in Latin America is traffic signs, as almost every country has a distinct design from its neighbours. While car and coverage meta can help a lot, people have achieved very high streaks playing with a script to hide the Google car."
+  },
+  {
+    "type": "p",
+    "text": "In Asia the most useful clues for each country cover a wide variety of categories, so you will need to learn each country’s best tips. Also, rural rounds in Southeast Asia can be extremely hard, even for experienced players, and they can even be confused with Latin America from time to time."
+  },
+  {
+    "type": "p",
+    "text": "In Africa, car and coverage metas combined with some basic landscape knowledge can get you the right country every time."
+  },
+  {
+    "type": "p",
+    "text": "Oceania only has official car coverage in Australia and New Zealand. Both are left-side drive English-speaking countries in the southern hemisphere that look quite different from each other, so learning what they look like and a couple of unique infrastructure clues about each is enough to essentially never miss them."
+  },
+  {
+    "type": "p",
+    "text": "For small islands and territories, there will almost always be some sort of car meta that gives away the location. In the case of trekkers, the only real way of learning them is to remember each individual trekker. In Geoguessr’s “World” map the same trekkers tend to show up repeatedly. In better maps like A Community World or An Official World all trekkers can be solved by moving around and finding information."
+  },
+  {
+    "type": "p",
+    "text": "Learn basic regionguessing on the bigger countries: Due to the higher amount of locations in bigger countries and their size, learning how to get the right region can yield very high results, especially in competitive games. It is quite easy to achieve victory from just one good guess in a big country once multipliers ramp up. Despite being generally considered a bigger mistake, going Finland on Sweden or vice versa will be less punishing than not being able to recognize some distinct areas of countries like Russia or Canada."
+  },
+  {
+    "type": "h4",
+    "text": "Having a good strategy for competitive games"
+  },
+  {
+    "type": "p",
+    "text": "When you enter a competitive game, and specifically moving duels, being aware of your strengths and weaknesses can help you make better decisions. Knowing in which countries you can find and use information effectively (where you know a good amount of placenames or regional clues, understand the road system, etc.), making it worth moving around to find it, and on which ones you don’t really have anything and should guess as soon as you are sure there is not any good information around."
+  },
+  {
+    "type": "p",
+    "text": "Another important thing to consider in moving games is to fully check the information around you and make sure you are not missing a good clue next to you by moving too early. This can be very costly if the opponent does see it. Knowing what is the best direction to move towards can be hard at times, but you should always try to look around and make a conscious decision instead of choosing at random."
+  },
+  {
+    "type": "h4",
+    "text": "Doing practice drills to strengthen your weak points"
+  },
+  {
+    "type": "p",
+    "text": "If you find yourself losing often in the same situations there are some ways to practice specific aspects of your game:"
+  },
+  {
+    "type": "p",
+    "text": "If you struggle against insta-guesses, you should try playing single player games with a short time limit, anywhere from 10 to 30 seconds."
+  },
+  {
+    "type": "p",
+    "text": "If you struggle in low-information rounds you should play No Move games on rural maps (such as An Arbitrary Rural World) to force yourself to learn more country recognition clues and develop better vibes."
+  },
+  {
+    "type": "p",
+    "text": "If you have issues in a particular region of the world, playing regional maps or generating a map with only the countries that give you trouble can be an effective way to improve."
+  },
+  {
+    "type": "p",
+    "text": "If you find yourself losing because of not being able to regionguess some countries, you should play single player games on those specific countries, or on maps that focus only on big countries, such as Less-Extreme Regionguessing or Extreme Regionguessing."
+  },
+  {
+    "type": "p",
+    "text": ""
+  },
+  {
+    "type": "h3",
+    "text": "Glossary"
+  },
+  {
+    "type": "p",
+    "text": "5k - A perfect score in Geoguessr. It is commonly used to refer to very close guesses that are not actually 5,000 points."
+  },
+  {
+    "type": "p",
+    "text": "AI Generated - In “AI generated” maps, locations are chosen by a computer program according to parameters established by the map maker."
+  },
+  {
+    "type": "p",
+    "text": "Ari - A term used to refer to unofficial coverage. It began as a shortened version of “Autori”, a company that covered Finland extensively and whose coverage would show up frequently in maps that did not take measures against it."
+  },
+  {
+    "type": "p",
+    "text": "Handpicked: Handpicked maps are those in which every location has been manually selected by the mapmaker."
+  },
+  {
+    "type": "p",
+    "text": "Hedge - A guess made in a place that is not likely to be the exact location, but is roughly in the centre of the area where the location could be. It aims to minimize points lost, rather than to maximize the score with a risky guess. A “water hedge” is a guess made in the water between the pieces of land that the player considers plausible."
+  },
+  {
+    "type": "p",
+    "text": "Loc - Short for “location”."
+  },
+  {
+    "type": "p",
+    "text": "Lowcam - This term refers to the Google camera being mounted lower than usual, usually due to privacy concerns. This leads to a different point of view that can be easily distinguished with experience. It is particularly useful since it only appears in a handful of countries."
+  },
+  {
+    "type": "p",
+    "text": "Meta - Any type of clue used in Geoguessr. In the Geoguessr community, the meaning of this word has evolved to mean any clue players can use to get a round right, from “meta” (in the original meaning) things such as the Google Car or the camera generation, to completely real items like utility poles, bollards, signs, etc."
+  },
+  {
+    "type": "p",
+    "text": "Panorama - Commonly shortened as “pano”, it refers to the exact positioning of a location. When you are moving, each click forward is a different panorama."
+  },
+  {
+    "type": "p",
+    "text": "Pinpointability: Pinpointable maps are those where every location is placed on a distinct map feature, such as an intersection or a bridge, so that you can achieve a perfect score in every round if you put in the effort"
+  },
+  {
+    "type": "p",
+    "text": "Plonk - A guess that has been made without much thought about the exact location."
+  },
+  {
+    "type": "p",
+    "text": "Rift - A stitching glitch in Street View that can be found in the sky in a handful of countries."
+  },
+  {
+    "type": "p",
+    "text": "Trekker - A type of Google Street View coverage taken with a camera mounted on a backpack. This type of coverage can be found both in urban areas of major cities, or in the most remote places of the planet. The camera can be mounted to a variety of vehicles, such as boats, zebu-pulled carts, or camels, but it is still considered trekker."
+  },
+  {
+    "type": "p",
+    "text": "Tripod - A type of Google Street coverage taken with a commercial grade camera placed on a tripod. It is usually only found inside buildings like museums."
+  },
+  {
+    "type": "h2",
+    "text": "«\n1\n2\n3\n»"
+  },
+  {
+    "type": "p",
+    "text": "© 2021-2024 Plonk It."
+  },
+  {
+    "type": "image",
+    "original_url": "https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/dba4ed98-d3d0-4802-b70e-c35090b936db/p.png?format=1500w",
+    "alt": "Plonk It",
+    "title": "",
+    "caption": "We couldn't find the page you were looking for. This is either because:",
+    "local_path": "geoguessr_data/images/60568579cd0b745b9aa0dc06165e99bf.png"
+  },
+  {
+    "type": "image",
+    "original_url": "https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/dba4ed98-d3d0-4802-b70e-c35090b936db/p.png?format=1500w",
+    "alt": "Plonk It",
+    "title": "",
+    "caption": "We couldn't find the page you were looking for. This is either because:",
+    "local_path": "geoguessr_data/images/60568579cd0b745b9aa0dc06165e99bf.png"
+  },
+  {
+    "type": "p",
+    "text": "We couldn't find the page you were looking for. This is either because:"
+  },
+  {
+    "type": "p",
+    "text": "You can return to our homepage by clicking here, or you can try searching for the\n  content you are seeking by clicking here."
+  },
+  {
+    "type": "p",
+    "text": "© 2021-2024 Plonk It."
+  }
+]
