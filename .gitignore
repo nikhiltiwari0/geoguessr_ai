@@ -1,1 +1,7 @@
+.gitignore
+compressed_dataset
 https:/
+.DS_Store
+__pycache__/
+country_classifier_model_checkpoint.keras
+logs/
