@@ -173,208 +173,282 @@ const countryCoordinates = {
   "Nepal": { latitude: 28.394857, longitude: 84.124008 },
   "Nauru": { latitude: -0.522778, longitude: 166.931503 },
   "Niue": { latitude: -19.054445, longitude: -169.867233 },
-    "New Zealand": { latitude: -40.900557, longitude: 174.885971 },
-    "Oman": { latitude: 21.512583, longitude: 55.923255 },
-    "Panama": { latitude: 8.537981, longitude: -80.782127 },
-    "Peru": { latitude: -9.189967, longitude: -75.015152 },
-    "French Polynesia": { latitude: -17.679742, longitude: -149.406843 },
-    "Papua New Guinea": { latitude: -6.314993, longitude: 143.95555 },
-    "Philippines": { latitude: 12.879721, longitude: 121.774017 },
-    "Pakistan": { latitude: 30.375321, longitude: 69.345116 },
-    "Poland": { latitude: 51.919438, longitude: 19.145136 },
-    "Saint Pierre and Miquelon": { latitude: 46.941936, longitude: -56.27111 },
-    "Pitcairn Islands": { latitude: -24.703615, longitude: -127.439308 },
-    "Puerto Rico": { latitude: 18.220833, longitude: -66.590149 },
-    "Palestinian Territories": { latitude: 31.952162, longitude: 35.233154 },
-    "Portugal": { latitude: 39.399872, longitude: -8.224454 },
-    "Palau": { latitude: 7.51498, longitude: 134.58252 },
-    "Paraguay": { latitude: -23.442503, longitude: -58.443832 },
-    "Qatar": { latitude: 25.354826, longitude: 51.183884 },
-    "Réunion": { latitude: -21.115141, longitude: 55.536384 },
-    "Romania": { latitude: 45.943161, longitude: 24.96676 },
-    "Serbia": { latitude: 44.016521, longitude: 21.005859 },
-    "Russia": { latitude: 61.52401, longitude: 105.318756 },
-    "Rwanda": { latitude: -1.940278, longitude: 29.873888 },
-    "Saudi Arabia": { latitude: 23.885942, longitude: 45.079162 },
-    "Solomon Islands": { latitude: -9.64571, longitude: 160.156194 },
-    "Seychelles": { latitude: -4.679574, longitude: 55.491977 },
-    "Sudan": { latitude: 12.862807, longitude: 30.217636 },
-    "Sweden": { latitude: 60.128161, longitude: 18.643501 },
-    "Singapore": { latitude: 1.352083, longitude: 103.819836 },
-    "Saint Helena": { latitude: -24.143474, longitude: -10.030696 },
-    "Slovenia": { latitude: 46.151241, longitude: 14.995463 },
-    "Svalbard and Jan Mayen": { latitude: 77.553604, longitude: 23.670272 },
-    "Slovakia": { latitude: 48.669026, longitude: 19.699024 },
-    "Sierra Leone": { latitude: 8.460555, longitude: -11.779889 },
-    "San Marino": { latitude: 43.94236, longitude: 12.457777 },
-    "Senegal": { latitude: 14.497401, longitude: -14.452362 },
-    "Somalia": { latitude: 5.152149, longitude: 46.199616 },
-    "Suriname": { latitude: 3.919305, longitude: -56.027783 },
-    "São Tomé and Príncipe": { latitude: 0.18636, longitude: 6.613081 },
-    "El Salvador": { latitude: 13.794185, longitude: -88.89653 },
-    "Syria": { latitude: 34.802075, longitude: 38.996815 },
-    "Swaziland": { latitude: -26.522503, longitude: 31.465866 },
-    "Turks and Caicos Islands": { latitude: 21.694025, longitude: -71.797928 },
-    "Chad": { latitude: 15.454166, longitude: 18.732207 },
-    "French Southern Territories": { latitude: -49.280366, longitude: 69.348557 },
-    "Togo": { latitude: 8.619543, longitude: 0.824782 },
-    "Thailand": { latitude: 15.870032, longitude: 100.992541 },
-    "Tajikistan": { latitude: 38.861034, longitude: 71.276093 },
-    "Tokelau": { latitude: -8.967363, longitude: -171.855881 },
-    "Timor-Leste": { latitude: -8.874217, longitude: 125.727539 },
-    "Turkmenistan": { latitude: 38.969719, longitude: 59.556278 },
-    "Tunisia": { latitude: 33.886917, longitude: 9.537499 },
-    "Tonga": { latitude: -21.178986, longitude: -175.198242 },
-    "Turkey": { latitude: 38.963745, longitude: 35.243322 },
-    "Trinidad and Tobago": { latitude: 10.691803, longitude: -61.222503 },
-    "Tuvalu": { latitude: -7.109535, longitude: 177.64933 },
-    "Taiwan": { latitude: 23.69781, longitude: 120.960515 },
-    "Tanzania": { latitude: -6.369028, longitude: 34.888822 },
-    "Ukraine": { latitude: 48.379433, longitude: 31.16558 },
-    "Uganda": { latitude: 1.373333, longitude: 32.290275 },
-    "United States": { latitude: 37.09024, longitude: -95.712891 },
-    "Uruguay": { latitude: -32.522779, longitude: -55.765835 },
-    "Uzbekistan": { latitude: 41.377491, longitude: 64.585262 },
-    "Vatican City": { latitude: 41.902916, longitude: 12.453389 },
-    "Saint Vincent and the Grenadines": { latitude: 12.984305, longitude: -61.287228 },
-    "Venezuela": { latitude: 6.42375, longitude: -66.58973 },
-    "British Virgin Islands": { latitude: 18.420695, longitude: -64.639968 },
-    "U.S. Virgin Islands": { latitude: 18.335765, longitude: -64.896335 },
-    "Vietnam": { latitude: 14.058324, longitude: 108.277199 },
-    "Vanuatu": { latitude: -15.376706, longitude: 166.959158 },
-    "Wallis and Futuna": { latitude: -13.768752, longitude: -177.156097 },
-    "Samoa": { latitude: -13.759029, longitude: -172.104629 },
-    "Kosovo": { latitude: 42.602636, longitude: 20.902977 },
-    "Yemen": { latitude: 15.552727, longitude: 48.516388 },
-    "Mayotte": { latitude: -12.8275, longitude: 45.166244 },
-    "South Africa": { latitude: -30.559482, longitude: 22.937506 },
-    "Zambia": { latitude: -13.133897, longitude: 27.849332 },
-    "Zimbabwe": [-19.015438, 29.154857]
+  "New Zealand": { latitude: -40.900557, longitude: 174.885971 },
+  "Oman": { latitude: 21.512583, longitude: 55.923255 },
+  "Panama": { latitude: 8.537981, longitude: -80.782127 },
+  "Peru": { latitude: -9.189967, longitude: -75.015152 },
+  "French Polynesia": { latitude: -17.679742, longitude: -149.406843 },
+  "Papua New Guinea": { latitude: -6.314993, longitude: 143.95555 },
+  "Philippines": { latitude: 12.879721, longitude: 121.774017 },
+  "Pakistan": { latitude: 30.375321, longitude: 69.345116 },
+  "Poland": { latitude: 51.919438, longitude: 19.145136 },
+  "Saint Pierre and Miquelon": { latitude: 46.941936, longitude: -56.27111 },
+  "Pitcairn Islands": { latitude: -24.703615, longitude: -127.439308 },
+  "Puerto Rico": { latitude: 18.220833, longitude: -66.590149 },
+  "Palestinian Territories": { latitude: 31.952162, longitude: 35.233154 },
+  "Portugal": { latitude: 39.399872, longitude: -8.224454 },
+  "Palau": { latitude: 7.51498, longitude: 134.58252 },
+  "Paraguay": { latitude: -23.442503, longitude: -58.443832 },
+  "Qatar": { latitude: 25.354826, longitude: 51.183884 },
+  "Réunion": { latitude: -21.115141, longitude: 55.536384 },
+  "Romania": { latitude: 45.943161, longitude: 24.96676 },
+  "Serbia": { latitude: 44.016521, longitude: 21.005859 },
+  "Russia": { latitude: 61.52401, longitude: 105.318756 },
+  "Rwanda": { latitude: -1.940278, longitude: 29.873888 },
+  "Saudi Arabia": { latitude: 23.885942, longitude: 45.079162 },
+  "Solomon Islands": { latitude: -9.64571, longitude: 160.156194 },
+  "Seychelles": { latitude: -4.679574, longitude: 55.491977 },
+  "Sudan": { latitude: 12.862807, longitude: 30.217636 },
+  "Sweden": { latitude: 60.128161, longitude: 18.643501 },
+  "Singapore": { latitude: 1.352083, longitude: 103.819836 },
+  "Saint Helena": { latitude: -24.143474, longitude: -10.030696 },
+  "Slovenia": { latitude: 46.151241, longitude: 14.995463 },
+  "Svalbard and Jan Mayen": { latitude: 77.553604, longitude: 23.670272 },
+  "Slovakia": { latitude: 48.669026, longitude: 19.699024 },
+  "Sierra Leone": { latitude: 8.460555, longitude: -11.779889 },
+  "San Marino": { latitude: 43.94236, longitude: 12.457777 },
+  "Senegal": { latitude: 14.497401, longitude: -14.452362 },
+  "Somalia": { latitude: 5.152149, longitude: 46.199616 },
+  "Suriname": { latitude: 3.919305, longitude: -56.027783 },
+  "São Tomé and Príncipe": { latitude: 0.18636, longitude: 6.613081 },
+  "El Salvador": { latitude: 13.794185, longitude: -88.89653 },
+  "Syria": { latitude: 34.802075, longitude: 38.996815 },
+  "Swaziland": { latitude: -26.522503, longitude: 31.465866 },
+  "Turks and Caicos Islands": { latitude: 21.694025, longitude: -71.797928 },
+  "Chad": { latitude: 15.454166, longitude: 18.732207 },
+  "French Southern Territories": { latitude: -49.280366, longitude: 69.348557 },
+  "Togo": { latitude: 8.619543, longitude: 0.824782 },
+  "Thailand": { latitude: 15.870032, longitude: 100.992541 },
+  "Tajikistan": { latitude: 38.861034, longitude: 71.276093 },
+  "Tokelau": { latitude: -8.967363, longitude: -171.855881 },
+  "Timor-Leste": { latitude: -8.874217, longitude: 125.727539 },
+  "Turkmenistan": { latitude: 38.969719, longitude: 59.556278 },
+  "Tunisia": { latitude: 33.886917, longitude: 9.537499 },
+  "Tonga": { latitude: -21.178986, longitude: -175.198242 },
+  "Turkey": { latitude: 38.963745, longitude: 35.243322 },
+  "Trinidad and Tobago": { latitude: 10.691803, longitude: -61.222503 },
+  "Tuvalu": { latitude: -7.109535, longitude: 177.64933 },
+  "Taiwan": { latitude: 23.69781, longitude: 120.960515 },
+  "Tanzania": { latitude: -6.369028, longitude: 34.888822 },
+  "Ukraine": { latitude: 48.379433, longitude: 31.16558 },
+  "Uganda": { latitude: 1.373333, longitude: 32.290275 },
+  "United States": { latitude: 37.09024, longitude: -95.712891 },
+  "Uruguay": { latitude: -32.522779, longitude: -55.765835 },
+  "Uzbekistan": { latitude: 41.377491, longitude: 64.585262 },
+  "Vatican City": { latitude: 41.902916, longitude: 12.453389 },
+  "Saint Vincent and the Grenadines": { latitude: 12.984305, longitude: -61.287228 },
+  "Venezuela": { latitude: 6.42375, longitude: -66.58973 },
+  "British Virgin Islands": { latitude: 18.420695, longitude: -64.639968 },
+  "U.S. Virgin Islands": { latitude: 18.335765, longitude: -64.896335 },
+  "Vietnam": { latitude: 14.058324, longitude: 108.277199 },
+  "Vanuatu": { latitude: -15.376706, longitude: 166.959158 },
+  "Wallis and Futuna": { latitude: -13.768752, longitude: -177.156097 },
+  "Samoa": { latitude: -13.759029, longitude: -172.104629 },
+  "Kosovo": { latitude: 42.602636, longitude: 20.902977 },
+  "Yemen": { latitude: 15.552727, longitude: 48.516388 },
+  "Mayotte": { latitude: -12.8275, longitude: 45.166244 },
+  "South Africa": { latitude: -30.559482, longitude: 22.937506 },
+  "Zambia": { latitude: -13.133897, longitude: 27.849332 },
+  "Zimbabwe": { latitude: -19.015438, longitude: 29.154857 }
 };
 
-function SidebarUploader({setImage}){
-  const [isOpen, setIsOpen] = useState(false)
+function SidebarUploader({ setImage, setIsLoading }) {
+  const fileInputRef = useRef(null);
 
   const handleImageUpload = (event) => {
-    const file = event.target.files[0]
-    if(file && ["image/jpeg", "image/jpg", "image/png"].includes(file.type)){
-      const reader = new FileReader()
-      reader.onload = () => {
-        setImage(reader.result)
+    const file = event.target.files[0];
+    console.log('Selected file:', file);
+    if (file && (file.type === 'image/jpeg' || file.type === 'image/png')) {
+      const formData = new FormData();
+      formData.append('image', file);
+      
+      // Log the FormData contents
+      for (let [key, value] of formData.entries()) {
+        console.log(key, value);
       }
-      reader.readAsDataURL(file)
+
+      setIsLoading(true);
+      fetch('http://localhost:8000/predict', {
+        method: 'POST',
+        body: formData
+      })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return response.json();
+      })
+      .then(data => {
+        console.log('API Response:', data);
+        setImage(data.country);
+      })
+      .catch(error => {
+        console.error('Error details:', error);
+        alert(`Error predicting country: ${error.message}`);
+      })
+      .finally(() => {
+        setIsLoading(false);
+      });
     } else {
-      alert("Please upload a valid image file of JPG, JPEG, or PNG type")
+      alert("Please upload a valid image file of JPG, JPEG, or PNG type");
     }
-  }
+  };
 
   return (
     <div className="sidebar-uploader">
-      <button onClick={() => setIsOpen(!isOpen)}>
-        {isOpen ? "Close" : "Upload Image"}
+      <input 
+        type="file" 
+        accept="image/*" 
+        onChange={handleImageUpload}
+        ref={fileInputRef}
+        style={{ display: 'none' }}
+      />
+      <button onClick={() => fileInputRef.current.click()}>
+        Upload Image
       </button>
-      {isOpen && (
-        <input type="file" accept="image/*" onChange={handleImageUpload}/>
-      )}
     </div>
-  )
+  );
 }
 
-<div id="map"></div>
-function FullMap(){
-
-    const mapRef = useRef(null)
-
+function Map({ givenCountry }) {
+  const mapRef = useRef(null);
 
   useEffect(() => {
     if (!mapRef.current) {
-      mapRef.current = L.map("map").setView([51.505, -0.09], 2);
-        L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_toner_lite/{z}/{x}/{y}{r}.png', {
-        attribution: 
-        '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://www.stamen.com/" target="_blank">Stamen Design</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-        maxZoom: 19
-      }).addTo(mapRef.current)
+      mapRef.current = L.map("map").setView([25, 0], 2);
+      L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+        subdomains: 'abcd',
+        maxZoom: 20,
+        minZoom: 2,
+      }).addTo(mapRef.current);
     }
 
-    return () => {
-      if (mapRef.current) {
-        mapRef.current.remove()
-        mapRef.current = null
-      }
-    };
-  }, []);
+    // If we have a country, update the view and add marker
+    if (givenCountry) {
+      const { latitude, longitude } = getFileValues(givenCountry);
+      mapRef.current.setView([latitude, longitude], 5);
 
-  return <div id="map" style={{ width: "1000px", height: "600px" }}></div>
-  }
-
-
-  function CoordinateMap(GetFileValues){
-
-    const mapRef = useRef(null)
-  
-      useEffect(() => {
-        if (!mapRef.current) {
-          mapRef.current = L.map("map").setView([latitude, longitude], 5)
-            L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_toner_lite/{z}/{x}/{y}{r}.png', {
-            attribution:
-             '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://www.stamen.com/" target="_blank">Stamen Design</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-            maxZoom: 19
-          }).addTo(mapRef.current);
-
-          const customIcon = L.icon({
-            iconUrl: "https://cdn-icons-png.flaticon.com/512/684/684908.png",
-            iconSize: [38, 38]
-          })
-
-          L.marker([latitude, longitude], {icon : customIcon}).addTo(mapRef.current)
+      // Clear any existing markers
+      mapRef.current.eachLayer((layer) => {
+        if (layer instanceof L.Marker) {
+          mapRef.current.removeLayer(layer);
         }
-  
+      });
+
+      // Add new marker
+      const customIcon = L.icon({
+        iconUrl: "https://cdn-icons-png.flaticon.com/512/684/684908.png",
+        iconSize: [38, 38]
+      });
+      L.marker([latitude, longitude], { icon: customIcon }).addTo(mapRef.current);
+    }
+
     return () => {
       if (mapRef.current) {
         mapRef.current.remove();
         mapRef.current = null;
       }
-    }
-  }, [])
+    };
+  }, [givenCountry]);
+
+  return <div id="map" style={{ width: "1000px", height: "600px" }}></div>;
+}
+
+function getFileValues(givenCountry) {
+  let latitude = 0;
+  let longitude = 0;
   
-  return <div id="map" style={{ width: "1000px", height: "600px" }}></div>
+  if (givenCountry) {
+    const coordinates = countryCoordinates[givenCountry];
+    if (coordinates) {
+      latitude = coordinates.latitude;
+      longitude = coordinates.longitude;
+    } else {
+      console.warn(`Coordinates not found for country: ${givenCountry}`);
+    }
   }
 
-  function GetFileValues(givenCountry){
-    if(givenCountry)
-      countryCoordinates(givenCountry)
-
-    return {latitude, longitude}
-  }
-
-
+  return { latitude, longitude };
+}
 
 function App() {
   const [image, setImage] = useState(null);
+  const [currentCountry, setCurrentCountry] = useState(null);
+  const [topCountry, setTopCountry] = useState(null);
+  const [topPercentage, setTopPercentage] = useState(null);
+  const [top3Countries, setTop3Countries] = useState([]);
+  const [top3Percentages, setTop3Percentages] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
+
+
+  useEffect(() => {
+    if (image) {
+      setIsLoading(true);
+      fetch('http://localhost:8000/predict', {
+        method: 'POST',
+        body: image // Send the FormData directly
+      })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return response.json();
+      })
+      .then(data => {
+        console.log('API Response:', data);
+        setCurrentCountry(data.top_country);
+        setTopCountry(data.top_country);
+        setTopPercentage(data.top_percentage);
+        setTop3Countries(data.top_3_countries);
+        setTop3Percentages(data.top_3_percentages);
+      })
+      .catch(error => {
+        console.error('Error details:', error);
+        alert(`Error predicting country: ${error.message}`);
+      })
+      .finally(() => {
+        setIsLoading(false);
+      });
+    }
+  }, [image]);
 
   return (
     <>
       <div className='website-name'>
-        <h1>Reverse Geoguessr AI</h1>
+        <h1>GEOGUESSR.AI</h1>
+        <p className="subtitle">Upload any location image and let AI predict the country</p>
       </div>
       
       <div className='map-content'>
-        {image ? (
-          <CoordinateMap/>
-         ) : (
-          <FullMap/>
-         )}
+        {isLoading ? (
+          <div>Predicting country...</div>
+        ) : (
+          <Map givenCountry={topCountry} />
+        )}
         <div className='upload-content'>
-          <SidebarUploader/>
+          <SidebarUploader setImage={setImage} setIsLoading={setIsLoading} />
+          {currentCountry && <p>Predicted Country: {currentCountry}</p>}
+          {topCountry && (
+            <div>
+              <h3>Top Country: {topCountry} ({topPercentage.toFixed(2)}%)</h3>
+              <h4>Other Options:</h4>
+              <ul>
+                {top3Countries.map((country, index) => (
+                  <li key={index}>
+                    {country}: {top3Percentages[index].toFixed(2)}%
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
         </div>
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
-        *Warning*
       </p>
     </>
-  )
-
+  );
 }
 
 export default App
