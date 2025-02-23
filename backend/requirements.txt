@@ -1,0 +1,26 @@
+# Deep Learning & Machine Learning
+tensorflow>=2.11.0
+torch>=2.0.0
+clip @ git+https://github.com/openai/CLIP.git
+numpy>=1.21.0
+
+# Image Processing
+Pillow>=9.0.0
+pytesseract>=0.3.8
+easyocr>=1.6.2
+
+# Web Scraping & API
+requests>=2.26.0
+beautifulsoup4>=4.9.3
+
+# AWS & Cloud
+boto3>=1.26.0
+sagemaker>=2.120.0
+
+# Utilities
+pathlib>=1.0.1
+
+# API
+flask>=2.0.0
+flask-cors>=3.0.0
+werkzeug>=2.0.0

@@ -4,7 +4,8 @@ from PIL import Image
 import os
 
 class CountryPredictor:
-    def __init__(self, model_path='country_classifier_model_checkpoint.keras', class_mapping_path='country_classifier_model_classes.npy'):
+    def __init__(self, model_path='model-output/country_classifier_model.keras', class_mapping_path='model-output/country_classifier_model_classes.npy'):
+
         try:
             # Try loading as Keras format
             self.model = tf.keras.models.load_model(model_path)
@@ -28,8 +29,8 @@ class CountryPredictor:
     def preprocess_image(self, image_path):
         try:
             # Load and preprocess the image
-            img = Image.open(image_path)
-            img = img.resize((160, 160))  # Same size used in training
+            img = Image.open(image_path).convert('RGB')  # Convert to RGB to ensure 3 channels
+            img = img.resize((224, 224))  # Match the training size
             img_array = tf.keras.preprocessing.image.img_to_array(img)
             img_array = img_array / 255.0  # Normalize
             img_array = tf.expand_dims(img_array, 0)
@@ -81,7 +82,7 @@ def main():
         predictor = CountryPredictor()
         
         # Example: predict a single image
-        image_path = "testing_images/test1.png"  # Replace with your image path
+        image_path = "testing_images/test3.png"  # Replace with your image path
         if os.path.exists(image_path):
             results = predictor.predict(image_path)
             
@@ -92,7 +93,7 @@ def main():
             print(f"Image not found: {image_path}")
             
             # Example: predict multiple images in a directory
-            test_dir = "testing_images/test1"  # Replace with your test directory
+            test_dir = "testing_images/test3.png"  # Replace with your test directory
             if os.path.exists(test_dir):
                 for image_file in os.listdir(test_dir):
                     if image_file.lower().endswith(('.png', '.jpg', '.jpeg')):

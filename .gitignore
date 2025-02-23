@@ -5,3 +5,5 @@ https:/
 __pycache__/
 country_classifier_model_checkpoint.keras
 logs/
+training-data/
+model-output/
