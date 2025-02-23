@@ -252,45 +252,45 @@ const countryCoordinates = {
   "Zimbabwe": { latitude: -19.015438, longitude: 29.154857 }
 };
 
-function SidebarUploader({ setImage, setIsLoading }) {
+function SidebarUploader({ setImage, setIsLoading, setTopCountry, setTopPercentage, setTop3Countries, setTop3Percentages }) {
   const fileInputRef = useRef(null);
 
   const handleImageUpload = (event) => {
     const file = event.target.files[0];
     console.log('Selected file:', file);
+    
     if (file && (file.type === 'image/jpeg' || file.type === 'image/png')) {
-      const formData = new FormData();
-      formData.append('image', file);
-      
-      // Log the FormData contents
-      for (let [key, value] of formData.entries()) {
-        console.log(key, value);
-      }
+        const formData = new FormData();
+        formData.append('image', file);
 
-      setIsLoading(true);
-      fetch('http://localhost:8000/predict', {
-        method: 'POST',
-        body: formData
-      })
-      .then(response => {
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        return response.json();
-      })
-      .then(data => {
-        console.log('API Response:', data);
-        setImage(data.country);
-      })
-      .catch(error => {
-        console.error('Error details:', error);
-        alert(`Error predicting country: ${error.message}`);
-      })
-      .finally(() => {
-        setIsLoading(false);
-      });
+        setIsLoading(true);
+        fetch('http://localhost:8000/predict', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.log('API Response:', data);
+            // Update state with the response data
+            setTopCountry(data.top_country);
+            setTopPercentage(data.top_percentage);
+            setTop3Countries(data.top_3_countries);
+            setTop3Percentages(data.top_3_percentages);
+        })
+        .catch(error => {
+            console.error('Error details:', error);
+            alert(`Error predicting country: ${error.message}`);
+        })
+        .finally(() => {
+            setIsLoading(false);
+        });
     } else {
-      alert("Please upload a valid image file of JPG, JPEG, or PNG type");
+        alert("Please upload a valid image file of JPG, JPEG, or PNG type");
     }
   };
 
@@ -324,7 +324,6 @@ function Map({ givenCountry }) {
       }).addTo(mapRef.current);
     }
 
-    // If we have a country, update the view and add marker
     if (givenCountry) {
       const { latitude, longitude } = getFileValues(givenCountry);
       mapRef.current.setView([latitude, longitude], 5);
@@ -374,20 +373,18 @@ function getFileValues(givenCountry) {
 
 function App() {
   const [image, setImage] = useState(null);
-  const [currentCountry, setCurrentCountry] = useState(null);
-  const [topCountry, setTopCountry] = useState(null);
-  const [topPercentage, setTopPercentage] = useState(null);
-  const [top3Countries, setTop3Countries] = useState([]);
-  const [top3Percentages, setTop3Percentages] = useState([]);
+  const [topCountry, setTopCountry] = useState(""); // Ensure this is defined
+  const [topPercentage, setTopPercentage] = useState(0); // Ensure this is defined
+  const [top3Countries, setTop3Countries] = useState([]); // Ensure this is defined
+  const [top3Percentages, setTop3Percentages] = useState([]); // Ensure this is defined
   const [isLoading, setIsLoading] = useState(false);
-
 
   useEffect(() => {
     if (image) {
       setIsLoading(true);
       fetch('http://localhost:8000/predict', {
         method: 'POST',
-        body: image // Send the FormData directly
+        body: image
       })
       .then(response => {
         if (!response.ok) {
@@ -397,11 +394,16 @@ function App() {
       })
       .then(data => {
         console.log('API Response:', data);
-        setCurrentCountry(data.top_country);
-        setTopCountry(data.top_country);
-        setTopPercentage(data.top_percentage);
-        setTop3Countries(data.top_3_countries);
-        setTop3Percentages(data.top_3_percentages);
+        // Check if the expected properties exist
+        if (data.top_country && data.top_percentage && data.top_3_countries && data.top_3_percentages) {
+          setTopCountry(data.top_country);
+          setTopPercentage(data.top_percentage);
+          setTop3Countries(data.top_3_countries);
+          setTop3Percentages(data.top_3_percentages);
+        } else {
+          console.error('Unexpected API response structure:', data);
+          alert('Unexpected response from the server. Please try again.');
+        }
       })
       .catch(error => {
         console.error('Error details:', error);
@@ -427,8 +429,14 @@ function App() {
           <Map givenCountry={topCountry} />
         )}
         <div className='upload-content'>
-          <SidebarUploader setImage={setImage} setIsLoading={setIsLoading} />
-          {currentCountry && <p>Predicted Country: {currentCountry}</p>}
+          <SidebarUploader 
+            setImage={setImage} 
+            setIsLoading={setIsLoading} 
+            setTopCountry={setTopCountry} 
+            setTopPercentage={setTopPercentage} 
+            setTop3Countries={setTop3Countries} 
+            setTop3Percentages={setTop3Percentages} 
+          />
           {topCountry && (
             <div>
               <h3>Top Country: {topCountry} ({topPercentage.toFixed(2)}%)</h3>
@@ -451,4 +459,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
