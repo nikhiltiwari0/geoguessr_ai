@@ -1,0 +1,44 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+#map { 
+  height: 300px; 
+  width: 500px;
+}
+
+.website-name{
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  position: relative;
+}
+
+.map-content{
+  padding: 20px;
+}
+
+.upload-content{
+  padding: 20px;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
