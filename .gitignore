@@ -6,5 +6,5 @@ __pycache__/
 country_classifier_model_checkpoint.keras
 logs/
 training-data/
+*.keras
 model-output/
-backend/country_classifier_model_classes.keras
