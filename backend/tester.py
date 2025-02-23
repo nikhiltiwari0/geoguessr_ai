@@ -7,11 +7,9 @@ class CountryPredictor:
     def __init__(self, model_path='model-output/country_classifier_model.keras', class_mapping_path='model-output/country_classifier_model_classes.npy'):
 
         try:
-            # Try loading as Keras format
             self.model = tf.keras.models.load_model(model_path)
         except:
             try:
-                # Try loading as SavedModel format
                 self.model = tf.keras.models.load_model(model_path, custom_objects={'TFSMLayer': tf.keras.layers.Layer})
             except Exception as e:
                 print(f"Error loading model: {e}")
@@ -58,7 +56,7 @@ class CountryPredictor:
             if len(predictions.shape) == 2:
                 predictions = predictions[0]
             
-            # Get top k predictions
+            # Get top k predictions, will be 3 
             top_indices = predictions.argsort()[-top_k:][::-1]
             
             results = []
@@ -82,7 +80,7 @@ def main():
         predictor = CountryPredictor()
         
         # Example: predict a single image
-        image_path = "testing_images/test3.png"  # Replace with your image path
+        image_path = "testing_images/test3.png"
         if os.path.exists(image_path):
             results = predictor.predict(image_path)
             
@@ -93,7 +91,7 @@ def main():
             print(f"Image not found: {image_path}")
             
             # Example: predict multiple images in a directory
-            test_dir = "testing_images/test3.png"  # Replace with your test directory
+            test_dir = "testing_images/test3.png"
             if os.path.exists(test_dir):
                 for image_file in os.listdir(test_dir):
                     if image_file.lower().endswith(('.png', '.jpg', '.jpeg')):

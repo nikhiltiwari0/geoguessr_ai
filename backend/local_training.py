@@ -6,11 +6,9 @@ import os
 from train_model import train_model
 
 def main():
-    # Set paths
-    training_dir = Path('training-data')  # Your local training data directory
-    model_dir = Path('model-output')      # Where to save the model
+    training_dir = Path('training-data')  
+    model_dir = Path('model-output') 
     
-    # Create output directory if it doesn't exist
     model_dir.mkdir(exist_ok=True)
     
     print(f"Training directory: {training_dir}")
