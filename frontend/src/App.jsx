@@ -249,7 +249,7 @@ const countryCoordinates = {
     "Mayotte": { latitude: -12.8275, longitude: 45.166244 },
     "South Africa": { latitude: -30.559482, longitude: 22.937506 },
     "Zambia": { latitude: -13.133897, longitude: 27.849332 },
-    "Zimbabwe": { latitude: -19.015438, longitude: 29.154857 }
+    "Zimbabwe": [-19.015438, 29.154857]
 };
 
 function SidebarUploader({setImage}){
@@ -289,10 +289,10 @@ function FullMap(){
   useEffect(() => {
     if (!mapRef.current) {
       mapRef.current = L.map("map").setView([51.505, -0.09], 2);
-      L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-        maxZoom: 19,
-        attribution:
-          '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+        L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_toner_lite/{z}/{x}/{y}{r}.png', {
+        attribution: 
+        '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://www.stamen.com/" target="_blank">Stamen Design</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+        maxZoom: 19
       }).addTo(mapRef.current)
     }
 
@@ -310,30 +310,29 @@ function FullMap(){
 
   function CoordinateMap(GetFileValues){
 
-    const mapRef2 = useRef(null)
-
-      const customIcon = L.icon({
-        iconUrl: "https://cdn-icons-png.flaticon.com/512/684/684908.png",
-        iconSize: [38, 8]
-      })
+    const mapRef = useRef(null)
   
       useEffect(() => {
-        if (!mapRef.current2) {
-        
-          mapRef.current2 = L.map2("map").setView([latitude, longitude], 5)
-          L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-            maxZoom: 19,
+        if (!mapRef.current) {
+          mapRef.current = L.map("map").setView([latitude, longitude], 5)
+            L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_toner_lite/{z}/{x}/{y}{r}.png', {
             attribution:
-              '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-          }).addTo(mapRef.current2);
+             '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://www.stamen.com/" target="_blank">Stamen Design</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+            maxZoom: 19
+          }).addTo(mapRef.current);
 
-          const marker = L.marker([latitude, longitude], {icon : customIcon}).addTo(mapRef.current2)
+          const customIcon = L.icon({
+            iconUrl: "https://cdn-icons-png.flaticon.com/512/684/684908.png",
+            iconSize: [38, 38]
+          })
+
+          L.marker([latitude, longitude], {icon : customIcon}).addTo(mapRef.current)
         }
   
     return () => {
-      if (mapRef.current2) {
-        mapRef.current2.remove();
-        mapRef.current2 = null;
+      if (mapRef.current) {
+        mapRef.current.remove();
+        mapRef.current = null;
       }
     }
   }, [])
@@ -362,9 +361,9 @@ function App() {
       <div className='map-content'>
         {image ? (
           <CoordinateMap/>
-        ) : (
+         ) : (
           <FullMap/>
-        )}
+         )}
         <div className='upload-content'>
           <SidebarUploader/>
         </div>
