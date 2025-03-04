@@ -1,7 +1,5 @@
 # GEO GUESSR AI.
 
-This was made during MadData Hackathon 2025
-
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -14,7 +12,7 @@ This was made during MadData Hackathon 2025
 
 ## Introduction
 
-GEO GUESSR AI is a fun and interactive game that allows users to input an image, and our ML model will try to guess what country the user sent a photo of. This project was developed during the MadData Hackathon 2025.
+GEO GUESSR AI is a fun and interactive game that allows users to input an image, and our ML model will try to guess what country the user sent a photo of. 
 
 ## Installation
 
