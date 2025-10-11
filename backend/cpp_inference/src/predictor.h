@@ -73,8 +73,9 @@ private:
     void initialize_countries();
     void initialize_domain_indicators();
     void load_model(const std::string& model_path);
+    std::unordered_map<std::string, std::vector<float>> create_mock_prediction(const cv::Mat& image);
 
-    // Model and inference components
+    // Model and inference components (only initialized when model is loaded)
     std::unique_ptr<Ort::Env> env_;
     std::unique_ptr<Ort::Session> session_;
     std::unique_ptr<Ort::AllocatorWithDefaultOptions> allocator_;
