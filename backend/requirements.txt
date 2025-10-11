@@ -24,3 +24,7 @@ pathlib>=1.0.1
 flask>=2.0.0
 flask-cors>=3.0.0
 werkzeug>=2.0.0
+
+# C++ Integration & Build Tools
+pybind11>=2.10.0
+opencv-python>=4.5.0
