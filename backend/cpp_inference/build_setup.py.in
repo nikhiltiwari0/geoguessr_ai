@@ -1,0 +1,8 @@
+import os
+import sys
+
+# Add the build directory to the Python path
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "@CMAKE_CURRENT_BINARY_DIR_NAME@"))
+
+# You can now import your module, e.g., import @PROJECT_NAME@
+print(f"Successfully set up build environment for @PROJECT_NAME@. You can now import it.")
